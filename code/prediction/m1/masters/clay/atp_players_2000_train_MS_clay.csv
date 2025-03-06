@@ -1,0 +1,110 @@
+"";"player_id";"first_name";"last_name";"hand";"birth_date";"country_code";"NA";"NA";"invalid";"name";"dob"
+"645";109;"Alexander";"Zverev";"R";"19970420";"GER";"198";"Q4189526";FALSE;"Alexander Zverev";1997-04-20
+"3286";96;"Radek";"Stepanek";"R";"19781127";"CZE";"185";"Q309395";FALSE;"Radek Stepanek";1978-11-27
+"3657";70;"Albert";"Montanes";"R";"19801126";"ESP";"175";"Q299374";FALSE;"Albert Montanes";1980-11-26
+"3820";33;"Roger";"Federer";"R";"19810808";"SUI";"185";"Q1426";FALSE;"Roger Federer";1981-08-08
+"3836";106;"Filippo";"Volandri";"R";"19810905";"ITA";"183";"Q344765";FALSE;"Filippo Volandri";1981-09-05
+"3853";60;"Feliciano";"Lopez";"L";"19810920";"ESP";"188";"Q223695";FALSE;"Feliciano Lopez";1981-09-20
+"3918";61;"Nicolas";"Mahut";"R";"19820121";"FRA";"190";"Q317974";FALSE;"Nicolas Mahut";1982-01-21
+"3971";34;"David";"Ferrer";"R";"19820402";"ESP";"175";"Q191476";FALSE;"David Ferrer";1982-04-02
+"4023";108;"Mikhail";"Youzhny";"R";"19820625";"RUS";"183";"Q219970";FALSE;"Mikhail Youzhny";1982-06-25
+"4199";38;"Guillermo";"Garcia Lopez";"R";"19830604";"ESP";"188";"Q304724";FALSE;"Guillermo Garcia Lopez";1983-06-04
+"4253";64;"Florian";"Mayer";"R";"19831005";"GER";"190";"Q77170";FALSE;"Florian Mayer";1983-10-05
+"4260";55;"Philipp";"Kohlschreiber";"R";"19831016";"GER";"178";"Q77149";FALSE;"Philipp Kohlschreiber";1983-10-16
+"4270";105;"Fernando";"Verdasco";"L";"19831115";"ESP";"188";"Q191740";FALSE;"Fernando Verdasco";1983-11-15
+"4312";90;"Andreas";"Seppi";"R";"19840221";"ITA";"190";"Q319572";FALSE;"Andreas Seppi";1984-02-21
+"4338";68;"Juan";"Monaco";"R";"19840329";"ARG";"185";"Q294888";FALSE;"Juan Monaco";1984-03-29
+"4468";92;"Gilles";"Simon";"R";"19841227";"FRA";"183";"Q212833";FALSE;"Gilles Simon";1984-12-27
+"4527";107;"Stan";"Wawrinka";"R";"19850328";"SUI";"183";"Q193661";FALSE;"Stan Wawrinka";1985-03-28
+"4542";104;"Jo-Wilfried";"Tsonga";"R";"19850417";"FRA";"188";"Q192661";FALSE;"Jo-Wilfried Tsonga";1985-04-17
+"4545";50;"John";"Isner";"R";"19850426";"USA";"206";"Q53566";FALSE;"John Isner";1985-04-26
+"4607";8;"Tomas";"Berdych";"R";"19850917";"CZE";"196";"Q193665";FALSE;"Tomas Berdych";1985-09-17
+"4655";19;"Pablo";"Cuevas";"R";"19860101";"URU";"180";"Q358651";FALSE;"Pablo Cuevas";1986-01-01
+"4665";2;"Pablo";"Andujar";"R";"19860123";"ESP";"180";"Q373571";FALSE;"Pablo Andujar";1986-01-23
+"4678";102;"Viktor";"Troicki";"R";"19860210";"SRB";"193";"Q148225";FALSE;"Viktor Troicki";1986-02-10
+"4717";44;"Marcel";"Granollers";"R";"19860412";"ESP";"190";"Q314348";FALSE;"Marcel Granollers";1986-04-12
+"4729";1;"Kevin";"Anderson";"R";"19860518";"RSA";"203";"Q299956";FALSE;"Kevin Anderson";1986-05-18
+"4743";74;"Rafael";"Nadal";"L";"19860603";"ESP";"185";"Q10132";FALSE;"Rafael Nadal";1986-06-03
+"4753";40;"Richard";"Gasquet";"R";"19860618";"FRA";"185";"Q209436";FALSE;"Richard Gasquet";1986-06-18
+"4790";69;"Gael";"Monfils";"R";"19860901";"FRA";"193";"Q186429";FALSE;"Gael Monfils";1986-09-01
+"4869";15;"Jeremy";"Chardy";"R";"19870212";"FRA";"188";"Q176577";FALSE;"Jeremy Chardy";1987-02-12
+"4895";46;"Robin";"Haase";"R";"19870406";"NED";"190";"Q441037";FALSE;"Robin Haase";1987-04-06
+"4914";72;"Andy";"Murray";"R";"19870515";"GBR";"190";"Q10125";FALSE;"Andy Murray";1987-05-15
+"4915";65;"Leonardo";"Mayer";"R";"19870515";"ARG";"188";"Q33249";FALSE;"Leonardo Mayer";1987-05-15
+"4921";28;"Novak";"Djokovic";"R";"19870522";"SRB";"188";"Q5812";FALSE;"Novak Djokovic";1987-05-22
+"4922";35;"Fabio";"Fognini";"R";"19870524";"ITA";"178";"Q251980";FALSE;"Fabio Fognini";1987-05-24
+"5017";84;"Sam";"Querrey";"R";"19871007";"USA";"198";"Q54538";FALSE;"Sam Querrey";1987-10-07
+"5047";41;"Santiago";"Giraldo";"R";"19871127";"COL";"188";"Q357335";FALSE;"Santiago Giraldo";1987-11-27
+"5056";57;"Mikhail";"Kukushkin";"R";"19871226";"KAZ";"183";"Q459166";FALSE;"Mikhail Kukushkin";1987-12-26
+"5058";7;"Thomaz";"Bellucci";"L";"19871230";"BRA";"188";"Q312345";FALSE;"Thomaz Bellucci";1987-12-30
+"5071";85;"Albert";"Ramos";"L";"19880117";"ESP";"188";"Q459158";FALSE;"Albert Ramos";1988-01-17
+"5132";5;"Roberto";"Bautista Agut";"R";"19880414";"ESP";"183";"Q966542";FALSE;"Roberto Bautista Agut";1988-04-14
+"5167";62;"Adrian";"Mannarino";"L";"19880629";"FRA";"183";"Q373522";FALSE;"Adrian Mannarino";1988-06-29
+"5202";45;"Ernests";"Gulbis";"R";"19880830";"LAT";"190";"Q295866";FALSE;"Ernests Gulbis";1988-08-30
+"5217";23;"Juan Martin";"del Potro";"R";"19880923";"ARG";"198";"Q180535";FALSE;"Juan Martin del Potro";1988-09-23
+"5221";16;"Marin";"Cilic";"R";"19880928";"CRO";"198";"Q245241";FALSE;"Marin Cilic";1988-09-28
+"5232";29;"Alexandr";"Dolgopolov";"R";"19881107";"UKR";"180";"Q311906";FALSE;"Alexandr Dolgopolov";1988-11-07
+"5304";95;"Joao";"Sousa";"R";"19890330";"POR";"185";"Q1338865";FALSE;"Joao Sousa";1989-03-30
+"5325";79;"Benoit";"Paire";"R";"19890508";"FRA";"196";"Q246542";FALSE;"Benoit Paire";1989-05-08
+"5334";32;"Thomas";"Fabbiano";"R";"19890526";"ITA";"173";"Q3990614";FALSE;"Thomas Fabbiano";1989-05-26
+"5350";67;"John";"Millman";"R";"19890614";"AUS";"183";"Q2152388";FALSE;"John Millman";1989-06-14
+"5371";6;"Aljaz";"Bedene";"R";"19890718";"SLO";"181";"Q1271168";FALSE;"Aljaz Bedene";1989-07-18
+"5443";75;"Kei";"Nishikori";"R";"19891229";"JPN";"178";"Q311222";FALSE;"Kei Nishikori";1989-12-29
+"5516";97;"Jan Lennard";"Struff";"R";"19900425";"GER";"193";"Q1681537";FALSE;"Jan Lennard Struff";1990-04-25
+"5540";81;"Guido";"Pella";"L";"19900517";"ARG";"185";"Q336862";FALSE;"Guido Pella";1990-05-17
+"5544";31;"Daniel";"Evans";"R";"19900523";"GBR";"175";"Q4847264";FALSE;"Daniel Evans";1990-05-23
+"5572";58;"Dusan";"Lajovic";"R";"19900630";"SRB";"180";"Q551295";FALSE;"Dusan Lajovic";1990-06-30
+"5631";24;"Federico";"Delbonis";"L";"19901005";"ARG";"190";"Q367654";FALSE;"Federico Delbonis";1990-10-05
+"5664";43;"David";"Goffin";"R";"19901207";"BEL";"180";"Q19406";FALSE;"David Goffin";1990-12-07
+"5671";86;"Milos";"Raonic";"R";"19901227";"CAN";"196";"Q312343";FALSE;"Milos Raonic";1990-12-27
+"5719";47;"Pierre Hugues";"Herbert";"R";"19910318";"FRA";"188";"Q2093033";FALSE;"Pierre Hugues Herbert";1991-03-18
+"5764";26;"Grigor";"Dimitrov";"R";"19910516";"BUL";"188";"Q337681";FALSE;"Grigor Dimitrov";1991-05-16
+"5794";12;"Pablo";"Carreno Busta";"R";"19910712";"ESP";"188";"Q7121592";FALSE;"Pablo Carreno Busta";1991-07-12
+"5869";101;"Stefano";"Travaglia";"R";"19911228";"ITA";"185";"Q3972751";FALSE;"Stefano Travaglia";1991-12-28
+"5903";37;"Marton";"Fucsovics";"R";"19920208";"HUN";"188";"Q649333";FALSE;"Marton Fucsovics";1992-02-08
+"5919";4;"Nikoloz";"Basilashvili";"R";"19920223";"GEO";"185";"Q16297666";FALSE;"Nikoloz Basilashvili";1992-02-23
+"5923";56;"Filip";"Krajinovic";"R";"19920227";"SRB";"185";"Q178244";FALSE;"Filip Krajinovic";1992-02-27
+"5935";17;"Federico";"Coria";"R";"19920309";"ARG";"180";"Q27306789";FALSE;"Federico Coria";1992-03-09
+"6030";89;"Diego";"Schwartzman";"R";"19920816";"ARG";"170";"Q5274812";FALSE;"Diego Schwartzman";1992-08-16
+"6052";14;"Marco";"Cecchinato";"R";"19920930";"ITA";"185";"Q13360044";FALSE;"Marco Cecchinato";1992-09-30
+"6058";100;"Bernard";"Tomic";"R";"19921021";"AUS";"193";"Q288326";FALSE;"Bernard Tomic";1992-10-21
+"6086";13;"Salvatore";"Caruso";"R";"19921215";"ITA";"185";"Q16941640";FALSE;"Salvatore Caruso";1992-12-15
+"6108";20;"Taro";"Daniel";"R";"19930127";"JPN";"191";"Q15714673";FALSE;"Taro Daniel";1993-01-27
+"6135";11;"Roberto";"Carballes Baena";"R";"19930323";"ESP";"183";"Q16146051";FALSE;"Roberto Carballes Baena";1993-03-23
+"6185";25;"Hugo";"Dellien";"R";"19930616";"BOL";"180";"Q5904441";FALSE;"Hugo Dellien";1993-06-16
+"6205";42;"Marcos";"Giron";"R";"19930724";"USA";"180";"Q17478053";FALSE;"Marcos Giron";1993-07-24
+"6215";59;"Juan Ignacio";"Londero";"R";"19930815";"ARG";"180";"Q15665498";FALSE;"Juan Ignacio Londero";1993-08-15
+"6220";98;"Dominic";"Thiem";"R";"19930903";"AUT";"185";"Q88762";FALSE;"Dominic Thiem";1993-09-03
+"6221";51;"Aslan";"Karatsev";"R";"19930904";"RUS";"185";"Q18546813";FALSE;"Aslan Karatsev";1993-09-04
+"6285";83;"Lucas";"Pouille";"R";"19940223";"FRA";"185";"Q13403768";FALSE;"Lucas Pouille";1994-02-23
+"6365";30;"Kyle";"Edmund";"R";"19950108";"GBR";"188";"Q6451141";FALSE;"Kyle Edmund";1995-01-08
+"6402";76;"Yoshihito";"Nishioka";"L";"19950927";"JPN";"170";"Q16735453";FALSE;"Yoshihito Nishioka";1995-09-27
+"6408";66;"Daniil";"Medvedev";"R";"19960211";"RUS";"198";"Q21622022";FALSE;"Daniil Medvedev";1996-02-11
+"6413";39;"Cristian";"Garin";"R";"19960530";"CHI";"185";"Q4252035";FALSE;"Cristian Garin";1996-05-30
+"6419";18;"Borna";"Coric";"R";"19961114";"CRO";"188";"Q14905846";FALSE;"Borna Coric";1996-11-14
+"11499";27;"Laslo";"Djere";"R";"19950602";"SRB";"188";"Q18098061";FALSE;"Laslo Djere";1995-06-02
+"11561";53;"Karen";"Khachanov";"R";"19960521";"RUS";"198";"Q16568576";FALSE;"Karen Khachanov";1996-05-21
+"11801";77;"Cameron";"Norrie";"L";"19950823";"GBR";"188";"Q23668736";FALSE;"Cameron Norrie";1995-08-23
+"22316";10;"Alexander";"Bublik";"R";"19970617";"KAZ";"196";"Q23678983";FALSE;"Alexander Bublik";1997-06-17
+"24065";63;"Pedro";"Martinez";"R";"19970426";"ESP";"185";"Q52063672";FALSE;"Pedro Martinez";1997-04-26
+"24173";78;"Reilly";"Opelka";"R";"19970828";"USA";"211";"Q20655502";FALSE;"Reilly Opelka";1997-08-28
+"26080";87;"Andrey";"Rublev";"R";"19971020";"RUS";"188";"Q17373391";FALSE;"Andrey Rublev";1997-10-20
+"26189";36;"Taylor";"Fritz";"R";"19971028";"USA";"193";"Q17660516";FALSE;"Taylor Fritz";1997-10-28
+"26191";80;"Tommy";"Paul";"R";"19970517";"USA";"185";"Q20050871";FALSE;"Tommy Paul";1997-05-17
+"26193";99;"Frances";"Tiafoe";"R";"19980120";"USA";"188";"Q17305299";FALSE;"Frances Tiafoe";1998-01-20
+"26596";9;"Matteo";"Berrettini";"R";"19960412";"ITA";"196";"Q29918446";FALSE;"Matteo Berrettini";1996-04-12
+"26760";103;"Stefanos";"Tsitsipas";"R";"19980812";"GRE";"193";"Q24450982";FALSE;"Stefanos Tsitsipas";1998-08-12
+"28020";49;"Hubert";"Hurkacz";"R";"19970211";"POL";"196";"Q18927958";FALSE;"Hubert Hurkacz";1997-02-11
+"32269";94;"Lorenzo";"Sonego";"R";"19950511";"ITA";"191";"Q24061220";FALSE;"Lorenzo Sonego";1995-05-11
+"33416";91;"Denis";"Shapovalov";"L";"19990415";"CAN";"185";"Q20979382";FALSE;"Denis Shapovalov";1999-04-15
+"34756";88;"Casper";"Ruud";"R";"19981222";"NOR";"183";"Q18810082";FALSE;"Casper Ruud";1998-12-22
+"36426";54;"Dominik";"Koepfer";"L";"19940429";"GER";"180";"Q37535155";FALSE;"Dominik Koepfer";1994-04-29
+"44705";71;"Jaume";"Munar";"R";"19970505";"ESP";"183";"Q17274717";FALSE;"Jaume Munar";1997-05-05
+"48224";3;"Felix";"Auger Aliassime";"R";"20000808";"CAN";"193";"Q20752045";FALSE;"Felix Auger Aliassime";2000-08-08
+"48229";48;"Ugo";"Humbert";"L";"19980626";"FRA";"188";"Q54007306";FALSE;"Ugo Humbert";1998-06-26
+"48399";52;"Miomir";"Kecmanovic";"R";"19990831";"SRB";"183";"Q22005752";FALSE;"Miomir Kecmanovic";1999-08-31
+"48445";21;"Alejandro";"Davidovich Fokina";"R";"19990605";"ESP";"183";"Q33084529";FALSE;"Alejandro Davidovich Fokina";1999-06-05
+"48506";22;"Alex";"De Minaur";"R";"19990217";"AUS";"183";"Q22958938";FALSE;"Alex De Minaur";1999-02-17
+"48839";82;"Alexei";"Popyrin";"R";"19990805";"AUS";"196";"Q30143529";FALSE;"Alexei Popyrin";1999-08-05
+"54397";93;"Jannik";"Sinner";"R";"20010816";"ITA";"188";"Q54812588";FALSE;"Jannik Sinner";2001-08-16
+"55742";73;"Lorenzo";"Musetti";"R";"20020303";"ITA";"185";"Q54813043";FALSE;"Lorenzo Musetti";2002-03-03
