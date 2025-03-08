@@ -194,7 +194,7 @@ dev.off()
 
 #plotting the traceplots and posteriors for top players
 for (i in top_players_ID[1:5]){
-  jagshelper::trace_jags(out,p = paste("lambda[",i,",",1,"]",sep = "")) #problems converging
+  jagshelper::trace_jags(out,p = paste("lambda[",i,",",1,"]",sep = ""))
 }
 for (i in top_players_ID[1:5]){
   jagshelper::chaindens_jags(out,p = paste("lambda[",i,",",1,"]",sep = ""))

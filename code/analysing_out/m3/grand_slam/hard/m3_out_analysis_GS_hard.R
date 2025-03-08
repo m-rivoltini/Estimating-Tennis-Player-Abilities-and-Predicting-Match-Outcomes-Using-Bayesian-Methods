@@ -365,10 +365,10 @@ dev.off()
 
 #plotting the traceplots and posteriors for top players
 for (i in top_players_ID[1:5]){
-  coda::traceplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) #problems converging
+  coda::traceplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) 
 }
 for (i in top_players_ID[1:5]){
-  coda::densplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) #problems converging
+  coda::densplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) 
 }
 
 for (i in 1:length(top_players_ID[1:5])){

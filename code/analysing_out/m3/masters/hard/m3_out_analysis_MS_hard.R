@@ -245,8 +245,8 @@ pdf("M3_MS_hard_lambda_tilde_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
-    coda::traceplot(out$samples[,paste0("lambda_tilde[",i,",",t,"]")])
-    mtext(paste(paste0("lambda[",i,",",t,"]"),as.character(atp_players_2000_train$name[i]),t),side = 3,cex = 1.2)
+    coda::traceplot(lambda_tilde_mcmc[,paste0("lambda_tilde[",i,",",t,"]")])
+    mtext(paste(paste0("lambda_tilde[",i,",",t,"]"),as.character(atp_players_2000_train$name[i]),t),side = 3,cex = 1.2)
   }
 }
 dev.off()
@@ -256,8 +256,8 @@ pdf("M3_MS_hard_lambda_tilde_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
-    coda::densplot(out$samples[,paste0("lambda_tilde[",i,",",t,"]")])
-    mtext(paste(paste0("lambda[",i,",",t,"]")," ",as.character(atp_players_2000_train$name[i]),"at time",t),side = 3,cex = 0.6)
+    coda::densplot(lambda_tilde_mcmc[,paste0("lambda_tilde[",i,",",t,"]")])
+    mtext(paste(paste0("lambda_tilde[",i,",",t,"]")," ",as.character(atp_players_2000_train$name[i]),"at time",t),side = 3,cex = 0.6)
   }
 }
 dev.off()
@@ -292,7 +292,7 @@ pdf("M3_MS_hard_lambda_tilde_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
-    acf(out$sims.list$lambda_tilde[,i,t],main = paste(as.character(atp_players_2000_train$name[i]),t))
+    acf(lambda_tilde_sims[,i,t],main = paste(as.character(atp_players_2000_train$name[i]),t))
   }
 }
 dev.off()
@@ -320,7 +320,7 @@ pdf("M3_MS_hard_lambda_tilde_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
-    param_samples <- out$samples[, paste("lambda_tilde[",i,",",t,"]",sep = ""), drop = FALSE] 
+    param_samples <- lambda_tilde_mcmc[, paste("lambda_tilde[",i,",",t,"]",sep = ""), drop = FALSE]
     coda::gelman.plot(param_samples)
     mtext(as.character(atp_players_2000_train$name[i]),side = 3,cex = 1.2)
   }
@@ -377,12 +377,11 @@ dev.off()
 
 #plotting the traceplots and posteriors for top players
 for (i in top_players_ID[1:5]){
-  coda::traceplot(out$samples[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) #problems converging
+  coda::traceplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) 
 }
 for (i in top_players_ID[1:5]){
-  coda::densplot(out$samples[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) #problems converging
+  coda::densplot(lambda_tilde_mcmc[,paste("lambda_tilde[",i,",",1,"]",sep = "")],main = paste("lambda_tilde[",i,",",1,"]",sep = "")) 
 }
-
 for (i in 1:length(top_players_ID[1:5])){
   acf(out$sims.list$lambda[,top_players_ID[i],2],main = paste("ACF for Posterior Strength of",top_player_names[i]))
 }
