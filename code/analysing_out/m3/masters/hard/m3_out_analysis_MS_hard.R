@@ -176,7 +176,7 @@ for (k in 1:5){
   points(change_times,lambda_tilde[top_players_ID[k],change_times], bg='tomato', pch=21, cex=0.5, lwd=0.1)
 }
 
-pdf("M3_GS_clay_seq_plots_lambda_tilde_top_players_ordered.pdf")
+pdf("M3_MS_hard_seq_plots_lambda_tilde_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_tilde)-2),lambda_tilde[top_players_ID[k],1:(ncol(lambda_tilde)-2)],type="l",xlab = "Time",ylab = "Complete Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -186,7 +186,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M3_GS_clay_lambda_tilde_seq_plots.pdf")
+pdf("M3_MS_hard_lambda_tilde_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_tilde)-2),lambda_tilde[k,1:(ncol(lambda_tilde)-2)],type="l",xlab = "Time",ylab = "Complete Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
