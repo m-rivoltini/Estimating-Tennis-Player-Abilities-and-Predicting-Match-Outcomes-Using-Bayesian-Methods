@@ -61,6 +61,7 @@ model <- "model{
     }
   }
   
+  #The computation of lambda_tilde requires further processing steps which are performed in the analysing_out script files
   for (i in 1:n_players){
     for (t in 2:n){
       lambda_tilde[i,t] = (lambda[i,t] + beta_R*(transformed_rank_i[t] - mean(transformed_rank_i[]))/sd(transformed_rank_i[]) + beta_B*(bp_saved_ratio_i[t] - mean(bp_saved_ratio_i[]))/sd(bp_saved_ratio_i[]))*cond1[i,t] + (lambda[i,t] + beta_R*(transformed_rank_j[t] - mean(transformed_rank_j[]))/sd(transformed_rank_j[]) + beta_B*(bp_saved_ratio_j[t] - mean(bp_saved_ratio_j[]))/sd(bp_saved_ratio_j[]))*cond2[i,t] + (lambda_tilde[i,t-1])*cond3[i,t]
