@@ -1,0 +1,240 @@
+"";"player_name";"wins";"losses";"total_matches_played";"wins_percentage"
+"171";"Novak Djokovic";284;38;322;88,2
+"185";"Rafael Nadal";253;37;290;87,24
+"195";"Roger Federer";270;47;317;85,17
+"35";"Carlos Alcaraz";21;6;27;77,78
+"18";"Andy Murray";158;50;208;75,96
+"45";"Daniil Medvedev";53;20;73;72,6
+"162";"Milos Raonic";79;30;109;72,48
+"54";"Dominic Thiem";68;26;94;72,34
+"153";"Matteo Berrettini";37;15;52;71,15
+"10";"Alexander Zverev";62;26;88;70,45
+"124";"Kei Nishikori";84;38;122;68,85
+"148";"Marin Cilic";112;51;163;68,71
+"206";"Stan Wawrinka";111;55;166;66,87
+"17";"Andrey Rublev";37;20;57;64,91
+"102";"Jannik Sinner";20;11;31;64,52
+"208";"Stefanos Tsitsipas";37;21;58;63,79
+"78";"Gael Monfils";84;48;132;63,64
+"191";"Roberto Bautista Agut";61;35;96;63,54
+"165";"Nick Kyrgios";48;28;76;63,16
+"123";"Karen Khachanov";39;23;62;62,9
+"37";"Casper Ruud";24;15;39;61,54
+"72";"Felix Auger Aliassime";19;12;31;61,29
+"48";"David Nalbandian";11;7;18;61,11
+"202";"Sebastian Korda";11;7;18;61,11
+"118";"Juan Martin del Potro";37;24;61;60,66
+"22";"Aslan Karatsev";9;6;15;60
+"47";"David Goffin";53;36;89;59,55
+"51";"Denis Shapovalov";29;20;49;59,18
+"189";"Richard Gasquet";85;60;145;58,62
+"82";"Grigor Dimitrov";59;42;101;58,42
+"46";"David Ferrer";36;26;62;58,06
+"174";"Pablo Carreno Busta";41;30;71;57,75
+"125";"Kevin Anderson";61;45;106;57,55
+"121";"Jurgen Melzer";13;10;23;56,52
+"53";"Diego Schwartzman";42;33;75;56
+"112";"John Isner";62;49;111;55,86
+"223";"Tomas Berdych";40;32;72;55,56
+"42";"Daniel Elahi Galan";6;5;11;54,55
+"4";"Alejandro Davidovich Fokina";13;11;24;54,17
+"140";"Marat Safin";7;6;13;53,85
+"110";"Jo-Wilfried Tsonga";36;31;67;53,73
+"33";"Brandon Nakashima";8;7;15;53,33
+"80";"Gilles Simon";60;53;113;53,1
+"7";"Alex De Minaur";23;21;44;52,27
+"66";"Fabio Fognini";54;50;104;51,92
+"126";"Kyle Edmund";15;14;29;51,72
+"40";"Cristian Garin";17;16;33;51,52
+"214";"Taylor Fritz";24;23;47;51,06
+"97";"Jack Sock";25;24;49;51,02
+"30";"Borna Coric";24;24;48;50
+"31";"Botic Van De Zandschulp";9;9;18;50
+"86";"Holger Rune";5;5;10;50
+"91";"Hyeon Chung";7;7;14;50
+"93";"Ilya Ivashka";9;9;18;50
+"95";"Ivan Ljubicic";7;7;14;50
+"104";"Jason Kubler";6;6;12;50
+"106";"Jenson Brooksby";7;7;14;50
+"137";"Lukasz Kubot";6;6;12;50
+"224";"Tommy Haas";12;12;24;50
+"74";"Fernando Verdasco";31;32;63;49,21
+"77";"Frances Tiafoe";25;26;51;49,02
+"34";"Cameron Norrie";18;19;37;48,65
+"55";"Dominik Koepfer";10;11;21;47,62
+"215";"Tennys Sandgren";15;17;32;46,88
+"43";"Daniel Evans";21;24;45;46,67
+"115";"Juan Carlos Ferrero";7;8;15;46,67
+"152";"Marton Fucsovics";19;22;41;46,34
+"200";"Sam Groth";6;7;13;46,15
+"225";"Tommy Paul";11;13;24;45,83
+"88";"Hubert Hurkacz";15;18;33;45,45
+"71";"Feliciano Lopez";54;65;119;45,38
+"133";"Lorenzo Sonego";14;17;31;45,16
+"178";"Pedro Martinez";9;11;20;45
+"201";"Sam Querrey";44;54;98;44,9
+"15";"Andreas Seppi";48;59;107;44,86
+"20";"Antoine Hoang";4;5;9;44,44
+"163";"Miomir Kecmanovic";11;14;25;44
+"211";"Steve Johnson";29;37;66;43,94
+"166";"Nicolas Almagro";14;18;32;43,75
+"226";"Tommy Robredo";14;18;32;43,75
+"180";"Philipp Kohlschreiber";47;61;108;43,52
+"101";"Janko Tipsarevic";10;13;23;43,48
+"131";"Lloyd Harris";10;13;23;43,48
+"25";"Benoit Paire";32;42;74;43,24
+"9";"Alexander Bublik";12;16;28;42,86
+"79";"Gilles Muller";12;16;28;42,86
+"119";"Juan Monaco";6;8;14;42,86
+"149";"Mario Ancic";6;8;14;42,86
+"113";"John Millman";20;27;47;42,55
+"83";"Guido Pella";18;25;43;41,86
+"169";"Nikoloz Basilashvili";18;25;43;41,86
+"107";"Jeremy Chardy";38;53;91;41,76
+"116";"Juan Ignacio Chela";5;7;12;41,67
+"155";"Maxime Cressy";5;7;12;41,67
+"187";"Reilly Opelka";10;14;24;41,67
+"58";"Dusan Lajovic";21;31;52;40,38
+"8";"Alex Molcan";4;6;10;40
+"26";"Bernabe Zapata Miralles";4;6;10;40
+"39";"Corentin Moutet";10;15;25;40
+"73";"Fernando Gonzalez";6;9;15;40
+"130";"Lleyton Hewitt";12;18;30;40
+"132";"Lorenzo Musetti";4;6;10;40
+"172";"Oscar Otte";6;9;15;40
+"231";"Viktor Troicki";11;17;28;39,29
+"167";"Nicolas Mahut";9;14;23;39,13
+"1";"Adrian Mannarino";28;44;72;38,89
+"161";"Mikhail Youzhny";14;22;36;38,89
+"194";"Robin Soderling";7;11;18;38,89
+"6";"Alex Bolt";5;8;13;38,46
+"62";"Emil Ruusuvuori";5;8;13;38,46
+"100";"Jan Lennard Struff";20;32;52;38,46
+"117";"Juan Ignacio Londero";5;8;13;38,46
+"138";"Mackenzie Mcdonald";10;16;26;38,46
+"144";"Marco Trungelliti";5;8;13;38,46
+"85";"Henri Laaksonen";6;10;16;37,5
+"108";"Jerzy Janowicz";6;10;16;37,5
+"134";"Lucas Pouille";12;20;32;37,5
+"147";"Mardy Fish";6;10;16;37,5
+"219";"Thomas Fabbiano";6;10;16;37,5
+"173";"Pablo Andujar";20;34;54;37,04
+"109";"Jiri Vesely";17;29;46;36,96
+"159";"Mikael Ymer";7;12;19;36,84
+"168";"Nikolay Davydenko";7;12;19;36,84
+"75";"Filip Krajinovic";11;19;30;36,67
+"29";"Blaz Kavcic";4;7;11;36,36
+"56";"Donald Young";8;14;22;36,36
+"90";"Hugo Gaston";4;7;11;36,36
+"212";"Tallon Griekspoor";4;7;11;36,36
+"50";"Denis Kudla";15;27;42;35,71
+"114";"Jordan Thompson";15;27;42;35,71
+"27";"Bernard Tomic";12;22;34;35,29
+"217";"Thanasi Kokkinakis";6;11;17;35,29
+"12";"Alexei Popyrin";8;15;23;34,78
+"120";"Julien Benneteau";10;19;29;34,48
+"3";"Albert Ramos";22;42;64;34,38
+"175";"Pablo Cuevas";18;35;53;33,96
+"19";"Andy Roddick";9;18;27;33,33
+"61";"Egor Gerasimov";4;8;12;33,33
+"67";"Fabrice Santoro";3;6;9;33,33
+"76";"Florian Mayer";7;14;21;33,33
+"92";"Igor Andreev";3;6;9;33,33
+"103";"Jarkko Nieminen";7;14;21;33,33
+"111";"Joao Sousa";18;36;54;33,33
+"141";"Marc Polmans";3;6;9;33,33
+"164";"Mischa Zverev";4;8;12;33,33
+"228";"Vasek Pospisil";14;29;43;32,56
+"184";"Radu Albot";12;25;37;32,43
+"143";"Marco Cecchinato";9;19;28;32,14
+"11";"Alexandr Dolgopolov";6;13;19;31,58
+"96";"Ivo Karlovic";11;24;35;31,43
+"199";"Salvatore Caruso";5;11;16;31,25
+"24";"Benjamin Bonzi";4;9;13;30,77
+"38";"Christopher Oconnell";4;9;13;30,77
+"234";"Yoshihito Nishioka";11;25;36;30,56
+"13";"Aljaz Bedene";14;32;46;30,43
+"21";"Arthur Rinderknech";3;7;10;30
+"129";"Liam Broady";3;7;10;30
+"146";"Marcos Giron";6;14;20;30
+"203";"Sergiy Stakhovsky";8;19;27;29,63
+"5";"Alejandro Falla";5;12;17;29,41
+"81";"Gregoire Barrere";5;12;17;29,41
+"128";"Leonardo Mayer";10;24;34;29,41
+"188";"Ricardas Berankis";14;34;48;29,17
+"64";"Ernests Gulbis";9;22;31;29,03
+"136";"Lukas Rosol";6;15;21;28,57
+"160";"Mikhail Kukushkin";11;28;39;28,21
+"16";"Andrey Kuznetsov";5;13;18;27,78
+"63";"Ernesto Escobedo";3;8;11;27,27
+"192";"Roberto Carballes Baena";6;16;22;27,27
+"156";"Maximilian Marterer";4;11;15;26,67
+"181";"Pierre Hugues Herbert";7;20;27;25,93
+"49";"Denis Istomin";9;26;35;25,71
+"105";"Jaume Munar";5;15;20;25
+"151";"Martin Klizan";4;12;16;25
+"179";"Peter Gojowczyk";6;18;24;25
+"198";"Ryan Harrison";6;18;24;25
+"127";"Laslo Djere";6;19;25;24
+"176";"Paolo Lorenzi";6;19;25;24
+"177";"Paul Henri Mathieu";6;19;25;24
+"183";"Radek Stepanek";6;19;25;24
+"205";"Soon Woo Kwon";4;13;17;23,53
+"210";"Steve Darcis";4;13;17;23,53
+"69";"Federico Coria";3;10;13;23,08
+"158";"Michael Mmoh";3;10;13;23,08
+"221";"Tim Smyczek";3;10;13;23,08
+"232";"Xavier Malisse";3;10;13;23,08
+"84";"Guillermo Garcia Lopez";7;24;31;22,58
+"216";"Teymuraz Gabashvili";4;14;18;22,22
+"41";"Damir Dzumhur";5;18;23;21,74
+"220";"Thomaz Bellucci";5;18;23;21,74
+"99";"James Duckworth";8;29;37;21,62
+"59";"Dustin Brown";3;11;14;21,43
+"230";"Victor Hanescu";3;11;14;21,43
+"145";"Marcos Baghdatis";7;26;33;21,21
+"68";"Facundo Bagnis";4;15;19;21,05
+"70";"Federico Delbonis";8;30;38;21,05
+"23";"Benjamin Becker";2;8;10;20
+"98";"James Blake";2;8;10;20
+"197";"Ruben Bemelmans";2;8;10;20
+"204";"Simone Bolelli";4;16;20;20
+"207";"Stefano Travaglia";3;12;15;20
+"209";"Stephane Robert";3;12;15;20
+"227";"Ugo Humbert";4;16;20;20
+"229";"Victor Estrella";2;8;10;20
+"139";"Malek Jaziri";3;13;16;18,75
+"142";"Marcel Granollers";5;22;27;18,52
+"150";"Marius Copil";2;9;11;18,18
+"157";"Michael Llodra";2;9;11;18,18
+"222";"Tobias Kamke";2;9;11;18,18
+"65";"Evgeny Donskoy";3;14;17;17,65
+"182";"Quentin Halys";3;14;17;17,65
+"52";"Dennis Novak";2;10;12;16,67
+"60";"Edouard Roger Vasselin";2;10;12;16,67
+"122";"Kamil Majchrzak";2;10;12;16,67
+"135";"Lukas Lacko";3;16;19;15,79
+"154";"Matthew Ebden";3;16;19;15,79
+"190";"Robby Ginepri";2;11;13;15,38
+"218";"Thiago Monteiro";3;17;20;15
+"57";"Dudi Sela";2;12;14;14,29
+"170";"Norbert Gombos";2;12;14;14,29
+"193";"Robin Haase";4;26;30;13,33
+"213";"Taro Daniel";3;20;23;13,04
+"14";"Andreas Beck";1;7;8;12,5
+"87";"Horacio Zeballos";2;14;16;12,5
+"94";"Ivan Dodig";1;8;9;11,11
+"186";"Rainer Schuettler";1;8;9;11,11
+"28";"Bjorn Fratangelo";1;9;10;10
+"32";"Bradley Klahn";1;9;10;10
+"44";"Daniel Gimeno Traver";1;9;10;10
+"89";"Hugo Dellien";1;9;10;10
+"2";"Albert Montanes";1;10;11;9,09
+"196";"Rogerio Dutra Silva";1;10;11;9,09
+"235";"Yuichi Sugita";1;11;12;8,33
+"36";"Carlos Berlocq";1;13;14;7,14
+"233";"Yen Hsun Lu";1;20;21;4,76
+"236";"Marcos Daniel";0;9;9;0
+"237";"Marinko Matosevic";0;10;10;0
+"238";"Santiago Giraldo";0;21;21;0
+"239";"Sergio Roitman";0;8;8;0
