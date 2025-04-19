@@ -25,10 +25,8 @@ tourneys_data <- atp_matches_2000 %>%
   count(tourney_name) %>%
   mutate(perc = n / sum(n) * 100)  
 
-colnames(tourneys_data) <- c("Tournament Name","# of Matches","% Composition")
-
 #plotting a pie chart
-ggplot(tourneys_data, aes(x = "", y = n, fill = tourney_name)) + 
+ggplot(tourneys_data, aes(x = "", y = n, fill = tourneys_data$tourney_name)) + 
   geom_bar(width = 1, stat = "identity") +
   coord_polar(theta = "y") +
   theme_void() +
@@ -37,6 +35,8 @@ ggplot(tourneys_data, aes(x = "", y = n, fill = tourney_name)) +
             position = position_stack(vjust = 0.5), size = 2.5) +  # Add percentage labels
   labs(fill = "Tournament Name") +  # Legend title
   ggtitle("Match Distribution per Tournament for Masters Tour")
+
+colnames(tourneys_data) <- c("Tournament Name","# of Matches","% Composition")
 
 #Idea is to get a table with the win counts and loss counts
 winning_player_counts <- as.data.frame(table(atp_matches_2000$winner_name)) #getting a table of players and the number of times they won
