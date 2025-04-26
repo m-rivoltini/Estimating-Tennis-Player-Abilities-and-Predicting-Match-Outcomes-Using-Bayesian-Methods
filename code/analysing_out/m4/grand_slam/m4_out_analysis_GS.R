@@ -254,7 +254,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_b_seq_plots.pdf")
+pdf("M4_GS_lambda_b_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_b)-2),lambda_b[k,1:(ncol(lambda_b)-2)],type="l",xlab = "Time",ylab = "Baseline Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -264,7 +264,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda_c_top_players_ordered.pdf")
+pdf("M4_GS_seq_plots_lambda_c_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_c)-2),lambda_c[top_players_ID[k],1:(ncol(lambda_c)-2)],type="l",xlab = "Time",ylab = "Clay Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -274,7 +274,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_c_seq_plots.pdf")
+pdf("M4_GS_lambda_c_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_c)-2),lambda_c[k,1:(ncol(lambda_c)-2)],type="l",xlab = "Time",ylab = "Clay Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -284,7 +284,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda_g_top_players_ordered.pdf")
+pdf("M4_GS_seq_plots_lambda_g_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_g)-2),lambda_g[top_players_ID[k],1:(ncol(lambda_g)-2)],type="l",xlab = "Time",ylab = "Grass Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -294,7 +294,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_g_seq_plots.pdf")
+pdf("M4_GS_lambda_g_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_g)-2),lambda_g[k,1:(ncol(lambda_g)-2)],type="l",xlab = "Time",ylab = "Grass Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -304,7 +304,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda_h_top_players_ordered.pdf")
+pdf("M4_GS_seq_plots_lambda_h_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_h)-2),lambda_h[top_players_ID[k],1:(ncol(lambda_h)-2)],type="l",xlab = "Time",ylab = "Hard Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -314,7 +314,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_h_seq_plots.pdf")
+pdf("M4_GS_lambda_h_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_h)-2),lambda_h[k,1:(ncol(lambda_h)-2)],type="l",xlab = "Time",ylab = "Hard Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -324,7 +324,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda_top_players_ordered.pdf")
+pdf("M4_GS_seq_plots_lambda_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda)-2),lambda[top_players_ID[k],1:(ncol(lambda)-2)],type="l",xlab = "Time",ylab = "Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -334,7 +334,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda.pdf")
+pdf("M4_GS_seq_plots_lambda.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda)-2),lambda[k,1:(ncol(lambda)-2)],type="l",xlab = "Time",ylab = "Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -344,7 +344,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_seq_plots_lambda_tilde_top_players_ordered.pdf")
+pdf("M4_GS_seq_plots_lambda_tilde_top_players_ordered.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_tilde)-2),lambda_tilde[top_players_ID[k],1:(ncol(lambda_tilde)-2)],type="l",xlab = "Time",ylab = "Complete Ability",main = paste("Evolution of Ability for",top_player_names[k]))
@@ -354,7 +354,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_tilde_seq_plots.pdf")
+pdf("M4_GS_lambda_tilde_seq_plots.pdf")
 par(mfrow = c(3,1))
 for (k in 1:nrow(atp_players_2000_train)){
   plot(1:(ncol(lambda_tilde)-2),lambda_tilde[k,1:(ncol(lambda_tilde)-2)],type="l",xlab = "Time",ylab = "Complete Ability",main = paste("Evolution of Ability for",atp_players_2000_train$name[k]))
@@ -364,7 +364,7 @@ for (k in 1:nrow(atp_players_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_b_density_plots.pdf")
+pdf("M4_GS_lambda_b_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -374,7 +374,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_c_density_plots.pdf")
+pdf("M4_GS_lambda_c_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -384,7 +384,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_g_density_plots.pdf")
+pdf("M4_GS_lambda_g_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -394,7 +394,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_h_density_plots.pdf")
+pdf("M4_GS_lambda_h_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -404,7 +404,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_density_plots.pdf")
+pdf("M4_GS_lambda_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -414,7 +414,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_tilde_density_plots.pdf")
+pdf("M4_GS_lambda_tilde_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -425,7 +425,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 dev.off()
 
 
-pdf("M4_GS_clay_lambda_b_trace_plots.pdf")
+pdf("M4_GS_lambda_b_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -435,7 +435,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_c_trace_plots.pdf")
+pdf("M4_GS_lambda_c_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -445,7 +445,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_g_trace_plots.pdf")
+pdf("M4_GS_lambda_g_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -455,7 +455,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_h_trace_plots.pdf")
+pdf("M4_GS_lambda_h_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -465,7 +465,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_b_trace_plots.pdf")
+pdf("M4_GS_lambda_b_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -475,7 +475,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_tilde_trace_plots.pdf")
+pdf("M4_GS_lambda_tilde_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -485,7 +485,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_p_ij_trace_plots.pdf")
+pdf("M4_GS_p_ij_trace_plots.pdf")
 par(mfrow = c(3,1))
 for (t in 1:nrow(atp_matches_2000_train)){
   coda::traceplot(out$samples[,paste0("p_ij[",t,"]")])
@@ -493,7 +493,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_p_ij_density_plots.pdf")
+pdf("M4_GS_p_ij_density_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   coda::densplot(out$samples[,paste0("p_ij[",t,"]")],ylim = c(0,10000))
@@ -501,7 +501,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_b_acf_plots.pdf")
+pdf("M4_GS_lambda_b_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -510,7 +510,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_c_acf_plots.pdf")
+pdf("M4_GS_lambda_c_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -519,7 +519,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_g_acf_plots.pdf")
+pdf("M4_GS_lambda_g_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -528,7 +528,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_h_acf_plots.pdf")
+pdf("M4_GS_lambda_h_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -537,7 +537,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_acf_plots.pdf")
+pdf("M4_GS_lambda_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -546,7 +546,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_tilde_acf_plots.pdf")
+pdf("M4_GS_lambda_tilde_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -555,7 +555,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_p_ij_acf_plots.pdf")
+pdf("M4_GS_p_ij_acf_plots.pdf")
 par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   acf(out$sims.list$p[,i],main=paste0("p[",t,"]"))
@@ -563,7 +563,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_b_gelman_plots.pdf")
+pdf("M4_GS_lambda_b_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -574,7 +574,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_c_gelman_plots.pdf")
+pdf("M4_GS_lambda_c_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -585,7 +585,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_g_gelman_plots.pdf")
+pdf("M4_GS_lambda_g_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -596,7 +596,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_h_gelman_plots.pdf")
+pdf("M4_GS_lambda_h_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -607,7 +607,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_gelman_plots.pdf")
+pdf("M4_GS_lambda_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -618,7 +618,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 }
 dev.off()
 
-pdf("M4_GS_clay_lambda_tilde_gelman_plots.pdf")
+pdf("M4_GS_lambda_tilde_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   for (i in 1:nrow(atp_players_2000_train)){
@@ -630,7 +630,7 @@ for (t in 1:nrow(atp_matches_2000_train)){
 dev.off()
 
 
-pdf("M4_GS_clay_p_ij_gelman_plots.pdf")
+pdf("M4_GS_p_ij_gelman_plots.pdf")
 #par(mfrow = c(3,3))
 for (t in 1:nrow(atp_matches_2000_train)){
   param_samples <- out$samples[, paste("p_ij[",t,"]",sep = ""), drop = FALSE] 
@@ -640,28 +640,28 @@ for (t in 1:nrow(atp_matches_2000_train)){
 dev.off()
 
 
-pdf("M4_GS_clay_tau_trace_plots.pdf")
+pdf("M4_GS_tau_trace_plots.pdf")
 coda::traceplot(out$samples[,"tau_b"],main = "tau_b")
 coda::traceplot(out$samples[,"tau_c"],main = "tau_c")
 coda::traceplot(out$samples[,"tau_g"],main = "tau_g")
 coda::traceplot(out$samples[,"tau_h"],main = "tau_h")
 dev.off()
 
-pdf("M4_GS_clay_tau_density_plots.pdf")
+pdf("M4_GS_tau_density_plots.pdf")
 coda::densplot(out$samples[,"tau_b"],main = "tau_b")
 coda::densplot(out$samples[,"tau_c"],main = "tau_c")
 coda::densplot(out$samples[,"tau_g"],main = "tau_g")
 coda::densplot(out$samples[,"tau_h"],main = "tau_h")
 dev.off()
 
-pdf("M4_GS_clay_tau_acf_plots.pdf")
+pdf("M4_GS_tau_acf_plots.pdf")
 acf(out$sims.list$tau_b,main = "tau_b")
 acf(out$sims.list$tau_c,main = "tau_c")
 acf(out$sims.list$tau_g,main = "tau_g")
 acf(out$sims.list$tau_h,main = "tau_h")
 dev.off()
 
-pdf("M4_GS_clay_tau_gelman_plots.pdf")
+pdf("M4_GS_tau_gelman_plots.pdf")
 param_samples <- out$samples[, "tau_b", drop = FALSE] 
 gelman.plot(param_samples)
 param_samples <- out$samples[, "tau_c", drop = FALSE] 
@@ -672,22 +672,22 @@ param_samples <- out$samples[, "tau_h", drop = FALSE]
 gelman.plot(param_samples)
 dev.off()
 
-pdf("M4_GS_clay_betas_trace_plots.pdf")
+pdf("M4_GS_betas_trace_plots.pdf")
 coda::traceplot(out$samples[,"beta_R"],main = "beta_R")
 coda::traceplot(out$samples[,"beta_B"],main = "beta_B")
 dev.off()
 
-pdf("M4_GS_clay_betas_density_plots.pdf")
+pdf("M4_GS_betas_density_plots.pdf")
 coda::densplot(out$samples[,"beta_R"],main = "beta_R")
 coda::densplot(out$samples[,"beta_B"],main = "beta_B")
 dev.off()
 
-pdf("M4_GS_clay_betas_acf_plots.pdf")
+pdf("M4_GS_betas_acf_plots.pdf")
 acf(out$sims.list$beta_R,main = "beta_R")
 acf(out$sims.list$beta_B,main = "beta_B")
 dev.off()
 
-pdf("M4_GS_clay_betas_gelman_plots.pdf")
+pdf("M4_GS_betas_gelman_plots.pdf")
 param_samples <- out$samples[, "beta_R", drop = FALSE] 
 gelman.plot(param_samples)
 param_samples <- out$samples[, "beta_B", drop = FALSE] 
